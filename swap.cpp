@@ -1,3 +1,5 @@
+//Swap two numbers using pointer in C++
+
 #include <iostream>
 using namespace std;
 void swap(int *first, int *second)
