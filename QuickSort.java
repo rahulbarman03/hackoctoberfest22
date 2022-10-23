@@ -8,6 +8,8 @@ class QuickSort
        smaller (smaller than pivot) to left of
        pivot and all greater elements to right
        of pivot */
+    
+    // Time complexity of this algorithm : O(N*log(N) )
     int partition(int arr[], int low, int high)
     {
         int pivot = arr[high];
